@@ -1,6 +1,7 @@
 package com.collectivedev.sslapp;
 
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -78,5 +79,21 @@ public class MainActivity extends AppCompatActivity {
                 })
                 .withSavedInstance(savedInstanceState)
                 .build();
+    }
+
+    @Override
+    public void onBackPressed() {
+
+        if (mNavDrawer != null && mNavDrawer.isDrawerOpen()){
+            mNavDrawer.closeDrawer();
+        }else {
+            super.onBackPressed();
+        }
+    }
+
+    @Override
+    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+        outState = mNavDrawer.saveInstanceState(outState);
+        super.onSaveInstanceState(outState, outPersistentState);
     }
 }

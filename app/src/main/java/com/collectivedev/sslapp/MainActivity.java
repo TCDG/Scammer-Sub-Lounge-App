@@ -1,4 +1,4 @@
-package com.scammersublounge.sslapp;
+package com.collectivedev.sslapp;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -14,6 +14,7 @@ import com.mikepenz.materialdrawer.DrawerBuilder;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
+import com.scammersublounge.sslapp.R;
 import com.scammersublounge.sslapp.utils.NavigationHandler;
 
 public class MainActivity extends AppCompatActivity {

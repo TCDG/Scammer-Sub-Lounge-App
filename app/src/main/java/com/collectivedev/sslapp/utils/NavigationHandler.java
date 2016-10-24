@@ -1,4 +1,4 @@
-package com.scammersublounge.sslapp.utils;
+package com.collectivedev.sslapp.utils;
 
 import android.content.Context;
 import android.content.Intent;

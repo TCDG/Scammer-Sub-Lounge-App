@@ -7,9 +7,9 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
 
+import com.collectivedev.sslapp.R;
 import com.collectivedev.sslapp.ui.FragmentHome;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
-import com.scammersublounge.sslapp.R;
 
 /**
  * Created by XeliteXirish on 24/10/2016 (www.xelitexirish.com)

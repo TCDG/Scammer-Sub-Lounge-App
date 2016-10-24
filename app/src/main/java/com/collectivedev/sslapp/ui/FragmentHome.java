@@ -8,7 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.scammersublounge.sslapp.R;
+import com.collectivedev.sslapp.R;
+
 
 /**
  * Created by XeliteXirish on 24/10/2016 (www.xelitexirish.com)

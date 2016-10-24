@@ -5,4 +5,8 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="info_description">Scammer Sub Lounge is a discord server aiming to stop phone scammers</string>
+    <string name="info_title">Scammer Sub Lounge</string>
+    <string name="staff_title">Here are some of the awesome staff on SSL</string>
+    <string name="staff_description">BLa bla bla im awesome</string>
 </resources>

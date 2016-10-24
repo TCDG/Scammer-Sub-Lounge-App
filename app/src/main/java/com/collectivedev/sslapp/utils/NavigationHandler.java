@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
 
+import com.collectivedev.sslapp.ui.FragmentHome;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
 import com.scammersublounge.sslapp.R;
 
@@ -25,6 +26,8 @@ public class NavigationHandler {
         long id = drawerItem.getIdentifier();
 
         if (id == idHome){
+            FragmentHome homeFragment = new FragmentHome();
+            switchScreen(context, homeFragment);
 
         }else if (id == idAbout){
 
